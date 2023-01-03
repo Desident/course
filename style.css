@@ -1,18 +1,19 @@
 div {
-    padding: 20px;
-    border: 1px solid;
+    margin: 20px;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .first {
-    margin-bottom: 50;
-    border: green;
+    padding-bottom: 50;
+    border-color: green;
 }
 
 .second {
-    margin-bottom: 50;
-    border: red;
+    madding-bottom: 50;
+    border-color: red;
 }
 
 .third {
-    border: blue;
+    border-color: blue;
 }
