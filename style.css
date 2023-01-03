@@ -1,0 +1,18 @@
+div {
+    padding: 20px;
+    border: 1px solid;
+}
+
+.first {
+    margin-bottom: 50;
+    border: green;
+}
+
+.second {
+    margin-bottom: 50;
+    border: red;
+}
+
+.third {
+    border: blue;
+}
