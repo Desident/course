@@ -34,15 +34,17 @@
          </div>
       </header>
       <main>
-         <div class="container">
-           <section class="main-item">
-             <div class="main-item-container">
-               <img class="main-item-img" src="images/main-item-img.png">
-               <span class="main-item-heading">Herschel bag</span>
-               <span class="main-item-price">110 usd</span>
-             </div>
-           </section>
-         </div>
+         <div class="slider" id="main-slider"><!-- outermost container element -->
+            <div class="slider-wrapper"><!-- innermost wrapper element -->
+               <div class="slide" data-image="/images/paint/scr1.png"></div><!-- slides -->
+               <div class="slide" data-image="/images/paint/scr2.png"></div>
+               <div class="slide" data-image="/images/paint/scr3.png"></div>
+            </div>
+            <div class="slider-nav"><!-- "Previous" and "Next" actions -->
+               <button class="slider-previous">Previous</button>
+               <button class="slider-next">Next</button>
+            </div>
+         </div>	
        </main>
       <footer>
    <div class="footer-links">
